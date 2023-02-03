@@ -13,8 +13,9 @@ body,
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  font-size: 16px;
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/lightpaperfibers.png);
+  color:aliceblue;
+  font-size: 15px; 
+  background: url(p5ABhXzv7zi2hpXB8Pjcz5.jpeg);
 }
 
 button {
@@ -40,7 +41,7 @@ button:hover {
 .app-sidebar {
   width: 30%;
   height: 100vh;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid rgba(169, 57, 57, 0.377);
 }
 
 .app-sidebar-header {
@@ -72,16 +73,16 @@ button:hover {
 }
 .app-sidebar-note small {
   display: block;
-  color: #999;
+  color: rgb(252, 252, 252);
 }
 
 .app-sidebar-note:hover {
-  background: #ddd;
+  background: rgba(120, 119, 221, 0.513);
 }
 .app-sidebar-note.active,
 .app-sidebar-note.active small {
-  background: #08c;
-  color: white;
+  background: rgb(94, 153, 182);
+  color: rgb(255, 255, 255);
 }
 
 /* NOTE EDITOR/PREVIEW (MAIN) STYLES */
@@ -101,7 +102,7 @@ button:hover {
   line-height: 100vh;
   text-align: center;
   font-size: 2rem;
-  color: #999;
+  color: rgba(123, 149, 214, 0.249);
 }
 
 /* Editing */
@@ -112,7 +113,7 @@ button:hover {
 .app-main-note-edit input,
 textarea {
   display: block;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(246, 239, 244, 0.492);
   margin-bottom: 20px;
   width: 100%;
   height: calc(50vh - 130px);
@@ -120,6 +121,8 @@ textarea {
   resize: none;
   font-size: inherit;
   font-family: inherit;
+  color: aliceblue;
+  background-color: rgba(137, 43, 226, 0.489);
 }
 .app-main-note-edit input {
   height: 50px;
@@ -128,9 +131,9 @@ textarea {
 
 /* Preview */
 .app-main-note-preview {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgb(194, 127, 212);
   overflow-y: scroll;
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(85, 47, 141, 0.585);
 }
 
 .preview-title {
